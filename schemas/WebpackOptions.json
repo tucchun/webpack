@@ -3078,7 +3078,14 @@
         },
         "entrypoints": {
           "description": "Display the entry points with the corresponding bundles.",
-          "type": "boolean"
+          "anyOf": [
+            {
+              "enum": ["auto"]
+            },
+            {
+              "type": "boolean"
+            }
+          ]
         },
         "env": {
           "description": "Add --env information.",

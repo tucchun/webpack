@@ -8397,7 +8397,7 @@ declare interface StatsOptions {
 	/**
 	 * Display the entry points with the corresponding bundles.
 	 */
-	entrypoints?: boolean;
+	entrypoints?: boolean | "auto";
 
 	/**
 	 * Add --env information.

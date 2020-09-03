@@ -1967,7 +1967,7 @@ export interface StatsOptions {
 	/**
 	 * Display the entry points with the corresponding bundles.
 	 */
-	entrypoints?: boolean;
+	entrypoints?: "auto" | boolean;
 	/**
 	 * Add --env information.
 	 */
