@@ -87,7 +87,7 @@
     "val-loader": "^1.0.2",
     "vm-browserify": "~1.1.0",
     "wast-loader": "^1.5.5",
-    "webpack-dev-middleware": "^3.5.1",
+    "webpack-dev-middleware": "3.7.2",
     "webassembly-feature": "1.3.0",
     "worker-loader": "^2.0.0",
     "xxhashjs": "^0.2.1"
